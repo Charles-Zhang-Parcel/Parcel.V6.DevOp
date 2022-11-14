@@ -20,3 +20,12 @@ private static void Window_Resized(object sender, SFML.Window.SizeEventArgs e)
 ```
 
 [MagicOnion](https://github.com/Cysharp/MagicOnion) provides a typed interface for RPC, however the server depends on ASP.Net and requires .Net Core+ (while the client can target .Net framework). Both ASP.Net Core and MagicOnion (which is built on top of gRPC) have over-complicated API and we want to keep our code as "original" (meaning as clean, straightfoward and dependency-free as possible), and for our purpose of simple communication, we can easily achieve what we want with sockets.
+
+The only libraries and the main features we are going to exploit:
+
+1. Csv - data tables, strong types, and all kinds of manipulations
+2. SQlite - in-memory, sql exposure, and all kinds of magic with static and dynamic (generated types) dapper
+3. The entirety of C# .net standard library and Python 3.7
+4. All handy features of C#-Python interop and Roslyn
+5. SFML - graphics and images and audios
+6. Some very needed custom functionalities i.e. annotation and collaboration
