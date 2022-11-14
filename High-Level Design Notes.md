@@ -8,3 +8,4 @@ The major inspiration for Parcel is Houdini, along with many other node-based co
 
 * **File Format**: For information on file format, see [File Format](./File%20Format).
 * **Cache**: See [Caching](/Caching)
+* **Software Architecture**, See [Software Architecture](./Software%20Architecture)

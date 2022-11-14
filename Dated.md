@@ -29,3 +29,10 @@ The only libraries and the main features we are going to exploit:
 4. All handy features of C#-Python interop and Roslyn
 5. SFML - graphics and images and audios
 6. Some very needed custom functionalities i.e. annotation and collaboration
+
+## 20221114
+
+Node instances DO NOT need an instance/display/variable name, because according to the code-generation format, we never refer to nodes themselves but refer directly to their input and outputs which are defined as variables. 
+Node instances generally are referred to by fully qualified functional names in the case of Parcel (think of it as a line of actual C# code), but we do provide a way to override display name - just like in Terragen.
+
+Experimental grpah types (contexts): Long Running Service, State Machine
